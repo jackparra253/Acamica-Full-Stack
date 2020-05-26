@@ -1,0 +1,22 @@
+div {
+    height: 150px;
+    width: 150px;
+    background-color: orange;
+}
+
+div:hover {
+    background-color: blue;
+}
+
+li:first-child {
+    color: green;
+}
+
+
+li:last-child {
+    background-color: yellow;
+}
+
+a:link {
+    text-decoration: none;
+}

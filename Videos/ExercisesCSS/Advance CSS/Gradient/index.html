@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gradient</title>
+</head>
+<style>
+    .gradientOne {
+        width: 300px;
+        height: 200px;
+        background-image: radial-gradient(blue, green, yellow);
+    }
+
+    .gradientTwo {
+        width: 300px;
+        height: 200px;
+        background-image: linear-gradient(to bottom right, blue, green 10%, yellow 60%);
+    }
+
+    .gradientThree {
+        width: 300px;
+        height: 200px;
+        background-image: repeating-linear-gradient(to bottom right, blue 60%, green 5%, yellow );
+    }
+
+</style>
+
+<body>
+    <div class="gradientOne"></div>
+    <div class="gradientTwo"></div>
+    <div class="gradientThree"></div>
+</body>
+
+</html>

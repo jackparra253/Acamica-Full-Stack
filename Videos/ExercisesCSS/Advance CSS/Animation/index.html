@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation</title>
+</head>
+<style>
+    .cyrcle {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        background-color: brown;
+        animation-name: cyrcle;
+        animation-duration: 4s;
+        animation-iteration-count: infinite;
+    }
+
+    @keyframes cyrcle {
+        0% {
+            width: 200px;
+            height: 200px;
+            background-color: green;
+        }
+
+        50% {
+            width: 400px;
+            height: 400px;
+            background-color: purple;
+        }
+
+        100%{
+            width: 10px;
+            height: 10px;
+            background-color: green;
+        }
+    }
+</style>
+
+<body>
+    <div class="cyrcle">
+
+    </div>
+</body>
+
+</html>

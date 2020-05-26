@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    h2 {
+        position: relative;
+        margin-left: 0px;
+    }
+
+    h2::before {
+        content: '';
+        width: 20px;
+        height: 20px;
+        background-color: blue;
+        position: absolute;
+        left: -23px;
+        top: 3px;
+    }
+
+    h2::after {
+        content: '';
+        width: 20px;
+        height: 20px;
+        background-color: gray;
+        position: absolute;
+        top: 3px;
+    }
+</style>
+
+<body>
+    <h2>Hello world!</h2>
+</body>
+
+</html>
