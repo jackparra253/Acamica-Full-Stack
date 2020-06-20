@@ -1,0 +1,23 @@
+{
+  "name": "acamica-full-stack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watchAll"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jackparra253/Acamica-Full-Stack.git"
+  },
+  "author": "Jack Parra",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jackparra253/Acamica-Full-Stack/issues"
+  },
+  "homepage": "https://github.com/jackparra253/Acamica-Full-Stack#readme",
+  "devDependencies": {
+    "jest": "^26.0.1"
+  }
+}
