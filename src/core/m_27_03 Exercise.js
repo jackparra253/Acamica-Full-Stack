@@ -1,3 +1,6 @@
+// Crea una nueva función para saber si un número ﻿entero es primo o no.
+// Utiliza esta nueva función a través de “calc”
+
 const callback = function (number) {
     let count = 0;
 
